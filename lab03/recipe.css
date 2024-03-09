@@ -1,0 +1,60 @@
+
+ body {
+  background-color: #191e19; 
+  background-image: url("image/chowmein.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; 
+}
+
+h1 { font-size: 19pt;
+  color: darkblue;
+  text-shadow: 2px 2px 5px red  
+  }
+h2{ font-size: 18pt; font-family:algerian ; color:#660000;
+    border:2px solid #eea000;
+    width: 150pt;
+    background-color: #777000;
+  }
+h3{text-decoration: underline;
+  text-transform: uppercase;
+  color:white;
+  }
+h4{
+  font-size: 18pt; font-family:algerian ; color:#660000;
+  box-shadow: 1px 2px ;
+  padding-right:40px;
+}
+ul{
+  font-size: 15pt; font-family:calibri;
+  border:2px solid skyblue;
+  width:400pt;
+  background-color: lightyellow;
+  opacity: 0.5;
+}    
+ol{
+  font-size: 14pt;
+  border:2px solid skyblue;
+  width:800pt;
+  background-color: lightyellow;
+  opacity: 0.5;
+}
+li{
+  font-size: 14pt; color: black;
+}  
+p {
+  margin-top: 100px;
+  text-indent: 50px;
+  font-style: italic;
+  font-size: 17pt;
+  color: Aqua; 
+}
+ 
+img{
+  border:2px solid lightcyan;
+  border-radius: 50%; 
+  vertical-align: middle;
+}
+a{
+  font-size: 17pt;
+}
