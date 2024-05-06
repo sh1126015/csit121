@@ -1,0 +1,47 @@
+body {
+    font-family: "Helvetica Neue",Arial, sans-serif;
+    background-color: #ede3e3;
+    color: #333;
+}
+
+header, footer {
+    background-color: #4eb4dc;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(201, 186, 186);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(184, 170, 170, 0.1);
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-row input[type="text"],.form-row input[type="email"],.form-row input[type="tel"],.form-row input[type="number"],.form-row select,.form-row textarea {
+    width: 100%;
+    padding: 9px;
+    box-sizing: border-box;
+}
+
+.form-image {
+    width: 100%;
+    max-width: 600px; 
+    height: 500px;
+    display: inline;
+    margin: 0 auto 20px; 
+}

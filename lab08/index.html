@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application for Cook at Anil's Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Application form for different position at Anil's Cafe</h1>
+    </header>
+    <main>
+        <section>
+            <h2><b>Personal Information</b></h2>
+            <form>
+                <div class="form-row">
+                    <img src="cook.jpg" alt="Join Our Team" class="form-image">
+                    <img src="at.png" alt="Join Our Team" class="form-image">
+                </div>
+                <div class="form-row">
+                    <label for="name"><b>Full Name:</b></label>
+                    <input type="text" id="name" name="name" aria-label="Full Name" placeholder="Enter your full name:eg,Anil Shrestha" required>
+                </div>
+                <div class="form-row">
+                    <label for="email"><b>Email Address:</b></label>
+                    <input type="email" id="email" name="email" aria-label="Email" placeholder="Enter your email:eg,anilganezu@gmail.com" required>
+                </div>
+                <div class="form-row">
+                    <label for="phone"><b>Phone Number:</b></label>
+                    <input type="tel" id="phone" name="phone" aria-label="Phone Number" placeholder="Enter your phone number:eg,+208-9977-365" required>
+                </div>
+                <h2><b>Culinary Experience</b></h2>
+                <div class="form-row">
+                    <label for="experience">Years of Experience:</label>
+                    <input type="number" id="experience" name="experience" min="0" aria-label="Years of Experience" placeholder="Enter your years of experience" required>
+                </div>
+                <h2><b>Position Preferences</b></h2>
+                <div class="form-row">
+                    <label for="position"><b>Desired Position:</b></label>
+                    <select id="position" name="position" aria-label="Desired Position">
+                        <option value="">Select a position</option>
+                        <option value="head_cook">Head Cook</option>
+                        <option value="dish_washer">Dishwasher</option>
+                        <option value="cleaner">Cleaner</option>
+                        <option value="supervisor">Supervisor</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="availability"><b>Are you available for night shifts?</b></label>
+                    <select id="availability" name="availability" aria-label="Availability for Night Shifts">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="sometime">Sometimes</option>
+                    </select>
+                </div>
+                <h2><b>Additional Information</b></h2>
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" aria-label="Additional Comments" placeholder="please share your interested food names here" rows="4"></textarea>
+                </div>
+                <div class="form-row">
+                    <input type="submit" value="Submit Application">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
